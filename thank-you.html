@@ -1,64 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Request Sent</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 20px;
-    }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Thank You - Server 1691</title>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
 
-    .box {
-      background: #1e293b;
-      padding: 40px;
-      border-radius: 16px;
-      max-width: 600px;
-      width: 100%;
-      box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    }
+body {
+background: linear-gradient(135deg, #0a2342, #0f2f57, #123b6d);
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+color: white;
+}
 
-    h1 {
-      color: #22c55e;
-      margin-bottom: 15px;
-    }
+.thankyou-box {
+width: 100%;
+max-width: 720px;
+background: linear-gradient(180deg, #2b7aa0, #3b91b9);
+border: 2px solid rgba(255, 255, 255, 0.35);
+border-radius: 18px;
+padding: 40px 30px;
+box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+text-align: center;
+}
 
-    p {
-      font-size: 18px;
-      color: #cbd5e1;
-      margin-bottom: 25px;
-    }
+.icon {
+font-size: 58px;
+margin-bottom: 15px;
+text-shadow: 0 0 10px rgba(120, 255, 255, 0.3);
+}
 
-    a {
-      display: inline-block;
-      background: #22c55e;
-      color: #0f172a;
-      text-decoration: none;
-      padding: 12px 24px;
-      border-radius: 10px;
-      font-weight: bold;
-    }
+h1 {
+font-size: 42px;
+margin-bottom: 12px;
+color: #86ffff;
+text-shadow: 0 0 12px rgba(134, 255, 255, 0.25);
+}
 
-    a:hover {
-      opacity: 0.9;
-    }
-  </style>
+.subtitle {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 14px;
+color: #ffffff;
+}
+
+.message {
+font-size: 17px;
+line-height: 1.7;
+color: #e8faff;
+margin-bottom: 28px;
+}
+
+.info-box {
+background: rgba(7, 33, 84, 0.75);
+border: 1px solid rgba(255, 255, 255, 0.18);
+border-radius: 14px;
+padding: 18px;
+margin-bottom: 25px;
+text-align: left;
+}
+
+.info-box h3 {
+color: #86ffff;
+margin-bottom: 10px;
+font-size: 20px;
+}
+
+.info-box p {
+color: #f3fcff;
+font-size: 15px;
+line-height: 1.7;
+margin-bottom: 6px;
+}
+
+.buttons {
+display: flex;
+gap: 14px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.btn {
+display: inline-block;
+text-decoration: none;
+padding: 14px 24px;
+border-radius: 12px;
+font-size: 16px;
+font-weight: bold;
+transition: all 0.2s ease;
+}
+
+.btn-primary {
+background: linear-gradient(135deg, #00d9ff, #00b7d6);
+color: #06263d;
+box-shadow: 0 6px 18px rgba(0, 217, 255, 0.25);
+}
+
+.btn-primary:hover {
+transform: translateY(-2px);
+opacity: 0.95;
+}
+
+.btn-secondary {
+background: rgba(7, 33, 84, 0.85);
+color: #ffffff;
+border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn-secondary:hover {
+transform: translateY(-2px);
+opacity: 0.95;
+}
+
+.footer-note {
+margin-top: 22px;
+font-size: 13px;
+color: #d8f8ff;
+opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+.thankyou-box {
+padding: 28px 20px;
+}
+
+h1 {
+font-size: 32px;
+}
+
+.subtitle {
+font-size: 18px;
+}
+
+.message {
+font-size: 15px;
+}
+
+.btn {
+width: 100%;
+}
+}
+</style>
 </head>
 <body>
-  <div class="box">
-    <h1>Thank you!</h1>
-    <p>Your request has been sent successfully.</p>
-    <p>We have received your application and will review it soon.</p>
-    <a href="index.html">Back to Form</a>
-  </div>
+
+<div class="thankyou-box">
+<div class="icon">✅</div>
+
+<h1>Application Submitted</h1>
+<p class="subtitle">Thank you for your application!</p>
+
+<p class="message">
+Your immigration request for <strong>Server 1691</strong> has been submitted successfully.<br>
+Our team will review your application and contact you if needed.
+</p>
+
+<div class="info-box">
+<h3>What happens next?</h3>
+<p>• Your application has been received successfully.</p>
+<p>• The leadership team will review your details.</p>
+<p>• If approved, you may be contacted through Discord or your server leadership.</p>
+<p>• Please make sure your information is correct and available.</p>
+</div>
+
+<div class="buttons">
+<a href="index.html" class="btn btn-primary">Submit Another Application</a>
+<a href="https://discord.gg/XBgQrJhSHG" target="_blank" class="btn btn-secondary">Join Our Discord</a>
+</div>
+
+<p class="footer-note">
+Server 1691 Immigration Center
+</p>
+</div>
+
 </body>
 </html>
