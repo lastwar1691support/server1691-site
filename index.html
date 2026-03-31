@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Immigration Applications - Server 1691</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #ffffff;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: rgba(30, 41, 59, 0.95);
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    h2 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #cbd5e1;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    label {
+      font-weight: bold;
+      color: #e2e8f0;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 14px;
+      border-radius: 10px;
+      border: 1px solid #334155;
+      background: #0f172a;
+      color: white;
+      font-size: 15px;
+      outline: none;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: #38bdf8;
+      box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .hint {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: -8px;
+    }
+
+    .contact-box {
+      margin-top: 10px;
+      padding: 15px;
+      border-radius: 12px;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid #334155;
+      color: #cbd5e1;
+    }
+
+    .contact-box a {
+      color: #38bdf8;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 16px;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.15s ease, opacity 0.2s ease;
+    }
+
+    button:hover {
+      transform: translateY(-1px);
+      opacity: 0.95;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 20px; }
+      h2 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Immigration Applications - Server 1691</h2>
+    <p class="subtitle">Please complete the form below.</p>
+
+    <form action="https://formsubmit.co/Lastwar1691support@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Immigration Application - Server 1691">
+      <input type="hidden" name="_next" value="thank-you.html">
+
+      <div>
+        <label for="playerName">Last War Name</label>
+        <input type="text" id="playerName" name="Last War Name" placeholder="Enter your in-game name" required />
+      </div>
+
+      <div>
+        <label for="fromServer">From which server?</label>
+        <input type="text" id="fromServer" name="From which server" placeholder="Enter current server number" required />
+      </div>
+
+      <div>
+        <label for="seatColor">Seat Color</label>
+        <select id="seatColor" name="Seat Color" required>
+          <option value="">Select seat color</option>
+          <option>White</option>
+          <option>Blue</option>
+          <option>Purple</option>
+          <option>Gold</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="totalHeroesPower">Total Heroes Power</label>
+        <input type="text" id="totalHeroesPower" name="Total Heroes Power" placeholder="Enter total heroes power" required />
+      </div>
+
+      <div>
+        <label for="firstSquadPower">First Squad Power</label>
+        <input type="text" id="firstSquadPower" name="First Squad Power" placeholder="Enter first squad power" required />
+      </div>
+
+      <div>
+        <label for="professionLevel">Profession Level</label>
+        <input type="text" id="professionLevel" name="Profession Level" placeholder="Enter profession level" required />
+      </div>
+
+      <div>
+        <label for="totalKills">Total Kills</label>
+        <input type="text" id="totalKills" name="Total Kills" placeholder="Enter total kills" required />
+      </div>
+
+      <div>
+        <label for="preferredAlliance">Preferred Alliance</label>
+        <select id="preferredAlliance" name="Preferred Alliance" required>
+          <option value="">Select preferred alliance</option>
+          <option>[TILD] Thunder in Last Dawn</option>
+          <option>[EDNA] Eden Eternal</option>
+          <option>[NeOm] NeOm</option>
+          <option>[STMI] Strategic Minds</option>
+          <option>[4nT] Antlantik</option>
+          <option>[2REV] النهرين</option>
+          <option>[NrS] No dreams</option>
+          <option>[NO4H] Bahtera Ark</option>
+          <option>[GWLF] GREY WOLF ALLIANCE</option>
+          <option>[W3IF] WEIRDFLOWER</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="note">Additional Notes</label>
+        <textarea id="note" name="Additional Notes" placeholder="Write any extra notes here..." maxlength="500"></textarea>
+        <div class="hint">Maximum 500 characters.</div>
+      </div>
+
+      <div class="contact-box">
+        <strong>Contact Us / Questions</strong><br />
+        <a href="https://discord.gg/XBgQrjHsHG" target="_blank">https://discord.gg/XBgQrjHsHG</a>
+      </div>
+
+      <button type="submit">Submit and Send</button>
+    </form>
+  </div>
+</body>
+</html>
